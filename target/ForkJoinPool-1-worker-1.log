@@ -1,4 +1,4 @@
-14:34:05.355 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:45:27.846 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
 14:17:17.321 feature call failed: C:/Users/testinium/OneDrive/Masaüstü/TestiniumEgitim/kareteee/src/main/java/examples/education/education.feature
 arg: null
 education.feature:109 - could not find or read file: classpath:example.json

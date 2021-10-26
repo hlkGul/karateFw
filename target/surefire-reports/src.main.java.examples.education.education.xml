@@ -1,5 +1,5 @@
-<testsuite failures="1" name="src/main/java/examples/education/education.feature" skipped="0" tests="1" time="0.007034">
-  <testcase classname="src.main.java.examples.education.education" name="use java function" time="0.007034">
+<testsuite failures="1" name="src/main/java/examples/education/education.feature" skipped="0" tests="1" time="0.006023">
+  <testcase classname="src.main.java.examples.education.education" name="use java function" time="0.006023">
     <failure message="education.feature:89 - could not find or read file: classpath:example.json">* url 'https://petstore.swagger.io/v2' .................................... passed
 * def requestBody = read('classpath:example.json') ........................ failed
 
