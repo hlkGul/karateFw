@@ -1,0 +1,21 @@
+<testsuite failures="1" name="src/main/java/examples/education/education.feature" skipped="0" tests="1" time="0.007034">
+  <testcase classname="src.main.java.examples.education.education" name="use java function" time="0.007034">
+    <failure message="education.feature:89 - could not find or read file: classpath:example.json">* url 'https://petstore.swagger.io/v2' .................................... passed
+* def requestBody = read('classpath:example.json') ........................ failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: education.feature:89 - could not find or read file: classpath:example.json&#13;
+	at ✽.* def requestBody = read('classpath:example.json') (education.feature:89)&#13;
+
+* requestBody.name = 'testinium' .......................................... skipped
+* def myJsFun = ........................................................... skipped
+* def postedLength =  call myJsFun requestBody.name ....................... skipped
+And path '/pet' ........................................................... skipped
+And request requestBody ................................................... skipped
+When method POST .......................................................... skipped
+* def responseLength = call myJsFun $.name ................................ skipped
+* print postedLength ...................................................... skipped
+* print responseLength .................................................... skipped
+Then match postedLength == responseLength ................................. skipped</failure>
+  </testcase>
+</testsuite>
